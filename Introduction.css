@@ -1,0 +1,98 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(body.JPG);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	font-family: sans-serif;
+}
+.menu-bar
+{
+	background: rgb(0, 0, 100);
+	text-align: center;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+	position: relative;
+}
+.menu-bar ul li
+{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+.active,.menu-bar ul li:hover
+{
+	background: darkblue;
+	border-radius: 3px;
+}
+.menu-bar .fa 
+{
+	margin-right: 8px;
+}
+.sub-about
+{
+	display: none;
+}
+.menu-bar ul li:hover .sub-about
+{
+	display: block;
+	position: absolute;
+	background: rgb(0, 0, 100);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-about ul
+{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-about ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted white;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-about ul li a :hover
+{
+	color: #b2ff00;
+}
+
+.text-box{
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+
+}
+.text-box h1{
+	font-size: 60px;
+
+}
+.text-box p{
+	margin: 10px 0 40px;
+	font-size: 18px;
+	color: white;
+}
