@@ -145,10 +145,10 @@ ul li.active a{
 }
 
 .title{
-
+    width :850px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 350px;
+    left: 55%;
     transform: translate(-50%,-50%);
 }
 
@@ -171,8 +171,8 @@ ul li.active a{
 
 .button{
     position: absolute;
-    top: 70%;
-    left: 37.9%;
+    top: 490px;
+    left: 36.5%;
     transform: translate(-50%,-50%);
 
 }
