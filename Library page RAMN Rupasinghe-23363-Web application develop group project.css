@@ -1,0 +1,172 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'poppins', Century Gothic ;
+
+}
+
+
+body{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('10web.jpg');
+  background-size : cover;
+  height: 100vh;
+  background-position: center;
+}
+
+
+header{
+  width:100%;
+  height: 100px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ position: fixed;
+ z-index: 99;
+
+}
+
+
+#chk1{
+  display: none;
+}
+i{
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+header .logo{
+  flex: 1;
+  color: #fff;
+  margin-left: 50px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+
+
+.content{
+  position:absolute;
+  top: 350px;
+  left: 43%;
+  transition: translate(-50%,-50%);
+  display: flex;
+  align-content: center;
+}
+
+.content .btn{
+  height: 50px;
+  width: 200px;
+
+}
+
+.content .btn button{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #fff;
+  color:#000;
+  border-radius: 30px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+ transition: 0.6s ease;
+}
+
+.btn button:hover{
+  background: #483D8B;
+
+}
+
+.content .file-name{
+  position: relative;
+  background: #fff;
+  color:#000;
+  padding: 14px 15px;
+  border-radius: 10px;
+  margin-left: 15px;
+  user-select: none;
+display: none;
+}
+
+.content .file-name:before{
+  position: absolute;
+  content: '';
+  height: 15px;
+  width: 17px;
+  background: #fff;
+  left:-7px;
+  top: 50%;
+  z-index: -1;
+  transform: translateY(-50%)rotate(45deg);
+}
+
+header ul{
+  flex: 2;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+header ul li{
+  list-style: none;
+  
+}
+
+header ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+  border-radius: 30px;
+
+}
+
+header ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+header .menu{
+  font-size: 1.5em;
+  display: none;
+}
+
+@media(max-width:1000px){
+  .search-box button{
+      position: absolute;
+  }
+  header ul{
+      position: fixed;
+      top: 100px;
+      right: -100%;
+      background: rgba(0,0,0,0.5);
+      height: calc(100vh - 100px);
+      width:50%;
+      flex-direction: column;
+      align-items: center;
+      transition: right  0.5s linear;
+  }
+  header .menu{
+      display: block;
+      width: 100px;
+      text-align: center;
+  }
+  #chk1:checked ~ ul{
+      right: 0;
+  }
+}
+@media(max-width:600px){
+  header .logo{
+      font-size: 10px;
+      margin-left: 8px;
+  }
+  header ul{
+      width: 100%;
+  }
+}
