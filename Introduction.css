@@ -165,3 +165,9 @@ h1{
 	background: darkblue;
 	transition: 1s;
 }
+
+h1{
+	font-size: 36px;
+	font-weight: 600;
+	
+}
