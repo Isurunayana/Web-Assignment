@@ -26,6 +26,16 @@ header{
 
 }
 
+.para{
+  position:absolute;
+  top: 250px;
+  left: 5%;
+  display: flex;
+  align-content: center;
+  color: #fff;
+ 
+}
+
 
 #chk1{
   display: none;
