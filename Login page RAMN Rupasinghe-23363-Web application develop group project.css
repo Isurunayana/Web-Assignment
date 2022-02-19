@@ -24,6 +24,25 @@ header{
  
 }
 
+.goback button a{
+    position :absolute;
+     top: 650px;
+     left: 3%;
+     border: 1px solid transparent;
+     padding: 10px 15px;
+     color: #fff;
+     text-decoration: none;
+     transition: 0.6s ease;
+     border-radius: 30px;
+  }
+  
+  
+.goback button a:hover{
+      background-color: #fff;
+      color: #000;
+  
+  }
+  
 
 #chk1{
     display: none;
@@ -152,3 +171,5 @@ header .menu{
         width: 100%;
     }
 }
+
+
