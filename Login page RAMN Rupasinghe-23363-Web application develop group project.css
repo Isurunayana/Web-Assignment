@@ -19,14 +19,14 @@ header{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   position: fixed;
+   position: relative;
    z-index: 99;
  
 }
 
 .goback button a{
     position :absolute;
-     top: 650px;
+     top: 680px;
      left: 3%;
      border: 1px solid transparent;
      padding: 10px 15px;
@@ -69,6 +69,7 @@ header .logo{
     transform: translate(-50%,-50%);
     position: absolute;
     color: #fff;
+    
 
 }
 
@@ -103,6 +104,7 @@ header .logo{
     width: 50%;
     border-radius: 30px;
     border: 0;
+    color: #000;
 }
 
 
@@ -171,5 +173,86 @@ header .menu{
         width: 100%;
     }
 }
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 500px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top :630px;
+    
+    
+    }
+footer .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-direction: row;
+        color: #fff;
+        
+    }
+    
+    
+.seecontact{
+        max-width: 100%;
+        background: #111;
+        padding: 8px 100px;
+        text-align: center;
+        color: #fff;
+     
+     
+    }
+    
+.seecontact .info{
+    position: relative;
+    
+    
+    }
+    
+ .seecontact .info li{
+       display: flex;
+       margin-bottom: 16px;
+      
+    }
+    
+ .seecontact .info li span{
+    color: #fff;
+    
+    }
+ 
+.seecontact .info li span:nth-child(1){
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    
+    }
+    
+.seecontact .info a{
+    color: #fff;
+    text-decoration: none;
+    
+    }
+.seecontact .info a:hover{
+        color: #fff;
+       
+    }
+.copyrightText{
+    max-width: 100%;
+    background: #111;
+    padding: 30px 13px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.validation{
+   position: relative;
+    
+}
+      
+
 
 
