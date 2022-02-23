@@ -6,6 +6,8 @@
 <h2 style="color:green;"><center>‘Education Is A Human Right And A Force For Sustainable Development And Peace’.</center></h2>
 </head>
 <body>
+
+
 <img src="qualityeducation2.JFIF" width="100%" height="300">
   <br>
   <h3>The SDGs or Sustainable Development Goals were set in 2015 by the United Nations General Assembly and are intended to be achieved by the year 2030. These are a collection of 17 Global Goals designed to be a "blueprint to achieve a better and more sustainable future for all.” The SDGs were developed to succeed the Millennium Development Goals (MDGs) which ended in 2015.</h3> 
@@ -22,7 +24,37 @@
 <br>
  According to the UNESCO Global Education Monitoring Report, each additional year of schooling increases a person's earnings by roughly 10%.</h3>
 <img src="nonprofit-impact-page.jpg" width="100%" height="600">
+<br>
+<br>
+
+  <button onclick="myFunction()">View More</button>
   
+  <script>
+function myFunction() {
+  alert("If you are interested in Donations & volunteering Please contact us through the email or below form!");
+}
+</script>
+
+
+<p> If you are interested in volunteering & Donations Please Enter names in the fields, then click "Submit" to submit the form:</p>
+
+<form id="frm1" action="/action_page.php">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  Donation or volunteer activity: <input type="text" name="Donationorvolunteeractivity"><br>
+  contact number:<input type="text" name="contactnumber"><br>
+  <input type="button" onclick="myFunction()" value="Submit">
+</form>
+
+<script>
+function myFunction() {
+  document.getElementById("frm1").submit();
+}
+</script>
+<div class="Back to impactpage">
+          <button> <a href="impactpage.html"  onclick="history.back()">Back to impactpage</a></button></div>
+
+
  </p>
  </body>
 </html>
