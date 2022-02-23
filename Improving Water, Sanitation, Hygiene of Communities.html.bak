@@ -1,0 +1,28 @@
+<html>
+<head>
+<style>
+body{background-image:url("import.jpg");
+ height:236pixel;
+ width:236pixel;
+ background-position:center;
+ background-repeat:no-repeat; 
+ background-size:cover;}
+ background-size:cover;}
+ h1{color:darkblue;}
+ h2{font-family:Roboto Light;
+    color:blue;
+	font-size:36;}
+	text-align:center;
+</style>
+</head>
+<body>
+<h1>Improving Water, Sanitation, Hygiene of Communities </h1>
+   <h2>Our organization have a program on Improving Water, Sanitation, Hygiene of Communities. 
+	Which we will be promoting the right to have a healthy life as our main goal.
+	We hope to conduct donation programs as well as awareness programs among local poor and the other community.</h2>
+	<p><img src ="Improving Water.jpg" width=400 height=400></p>
+	
+
+</body>
+
+</html>
