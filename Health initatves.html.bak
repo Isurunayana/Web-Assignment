@@ -1,0 +1,24 @@
+<html>
+<head>
+<style>
+body{background-image:url("health.jpg");
+ height:419pixel;
+ width:236pixel;
+ background-position:center;
+ background-repeat:no-repeat; 
+ background-size:cover;}
+ background-size:cover;}
+ h2{color :blue;
+		}
+</style>
+</head>
+<body>
+<h1>Health</h1>
+   <h2 style= "color: blue;" >Our donation programs are of water, covid prevention utilities (masks, hand sanitizer, gloves etc.) medicinal utensils and so on. 
+   We hope to improve the quality of health and livelihood of the locals and to make them aware of their 
+   health and sanitary problems and the preventions they could take with the facilities they already have.</h2>
+   <p><img src ="images.jpg" width=300 height=200> <img src ="Health 3.jpg" width=400 height=400> <img src ="Health 4.jpg" width=300 height=400></p>
+
+</body>
+
+</html>
