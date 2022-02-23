@@ -175,7 +175,7 @@ h1{
 
 .form-btn{
 	display: inline-block;
-	text-decoration: none;
+	text-decoration:none;
 	color: blue;
 	border: 1px solid blue;
 	padding: 16px 34px;
