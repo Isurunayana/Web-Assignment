@@ -76,7 +76,8 @@ header .logo{
 
 }
 
-.Signup button{
+
+.bt{
     font-size: 18px;
     font-weight: bold;
     margin: 20px 0;
@@ -85,6 +86,7 @@ header .logo{
     border-radius: 30px;
     border: 0;
 }
+
 
 
 header ul{
